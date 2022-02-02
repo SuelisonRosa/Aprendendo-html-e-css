@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div > div {
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+div :hover {
+    background-color: rgba(255, 255, 0, 0.829);
+}

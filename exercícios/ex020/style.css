@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #F2F2F2,#F2DFBB, #F2C46D);
+    color: #58238C;
+}
+
+a {
+    color: #9D84BF;
+}
+
+a:visited {
+    color: #58238C; 
+}
+
+a:hover {
+    color: #452368;
+    font-weight: bold;
+}
+
+
+.especial::after {
+    content: " ⇐";
+}
+
+.especial::before {
+    content: "⇒ ";
+}
