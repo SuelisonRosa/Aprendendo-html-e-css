@@ -1,0 +1,26 @@
+div.bloco {
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    height: 200px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-image: url('imagens/wallpaper002.jpg');
+}
+
+div#q1 {
+    background-position: center top;
+}
+
+div#q2 {
+    background-position: center center;
+}
+
+div#q3 {
+    background-position: center bottom;
+}
+
+div#q4 {
+    background-position: right top;
+}

@@ -1,0 +1,27 @@
+body {
+    height: 98vh;
+
+    /*
+    background-color: black;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    background-attachment: fixed; 
+
+    background: color image position repeat size attachment
+    */
+
+    background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: justify;
+}

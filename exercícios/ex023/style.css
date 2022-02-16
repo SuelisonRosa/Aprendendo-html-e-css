@@ -1,0 +1,20 @@
+div.quadrado {
+    display: inline-block;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+div#q1 {
+    background-color: aquamarine;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, blue, purple);
+}
+
+div#q3 {
+    background-image: url(imagens/wallpaper001.jpg);
+}
